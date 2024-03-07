@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #efefef;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    height: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.login {
+    flex: 70%;
+    text-align: center;
+}
+
+.login h1 {
+    margin-top: 8%;
+}
+
+.login input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login label {
+    margin-top: 3%;
+    color: #a41111;
+}
+
+
+
+.login input {
+    padding: 1%;
+    border: none;
+}
+
+.login input,
+.login hr,
+.login button {
+    width: 35%;
+}
+
+
+
+.login a {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.login button {
+    display: block;
+    margin: 2% auto;
+    padding: 1.5%;
+    border-radius: 100px;
+    border: none;
+}
+
+
+.login button[type="submit"] {
+    color: #efefef;
+    background-color: #416D19;
+}
+
+.login button[type="submit"]:hover {
+    color: #fff; 
+    background-color: black;
+}
+
+.login button[type="button"] {
+    color: grey;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.login button[type="button"]:hover {
+    color: #fff; 
+    background-color: black;
+}
+
+.login button[type="button"] span {
+    color: darkblue;
+    font-weight: bold;
+}
+
+
+
+
+
+/* register */
+
+
+.register {
+    flex: 30%;
+    filter: brightness(50%);
+    background-image: url('img/images.jpeg');
+    background-size: cover;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(2, 1, 0, 0.1);
+}
+
+.register h1 {
+    font-weight: 100;
+    color: black;
+    margin-top: 20%;
+}
+
+.register p {
+    margin: 0 1%;
+}
+
+.register button {
+    margin-top: 60%;
+    width: 30%;
+    border: 2px solid black;
+    background-color: rgb(255, 248, 240);
+    background: none;
+    padding: 2%;
+    border-radius: 100px;
+}
+
+
+.register button[type="submit"] {
+    background-color: #ffff;
+     color: #a41111;
+}
+
+.register button[type="submit"]:hover {
+   
+    background-color: transparent;
+}
+
+
